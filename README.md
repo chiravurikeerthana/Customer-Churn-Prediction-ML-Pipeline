@@ -1,6 +1,6 @@
 Customer Churn Prediction — End-to-End ML Pipeline
 
-Project Goal ????
+Project Goal 
 The objective of the project is **to predict customer churn** in a telecom company using machine learning.
 
 With this prediction, one can take proactive efforts toward retaining those customers and reduce revenue loss.
@@ -8,7 +8,7 @@ With this prediction, one can take proactive efforts toward retaining those cust
 This project demonstrates an entire ML workflow, from pre-processing the data, engineering features, to training, evaluating, and comparing models.
 
 -
-Dataset ????
+Dataset 
 **IBM Telco Customer Churn** dataset from Kaggle.
 - Total entries: 7,043 customers
 
@@ -31,7 +31,7 @@ Tools & Libraries
 - **Google Colab** (for running notebooks in the cloud)
 
 ---
-Project Workflow ????
+Project Workflow 
 1. **Data Loading**
 Load the Telco Customer Churn dataset.
 2. **Data Cleaning & Preprocessing **
@@ -62,10 +62,10 @@ Confusion Matrix
 
 Compare various models in order to identify the best performing model.
 
---- Model Performance ???? 
+--- Model Performance 
 | Model                | Accuracy | ROC-AUC |
 |----------------------|----------|---------| 
 | Logistic Regression  | 0.9189   | 0.9755  | 
 | Random Forest        | 0.9331   | 0.9788  | 
 |XGBoost               |0.9260    |0.9827   |
-> **Best model:** XGBoost (highest ROC-AUC) --- ## Folder Structure
+> **Best model:** XGBoost (highest ROC-AUC) 
