@@ -7,10 +7,12 @@ With this prediction, one can take proactive efforts toward retaining those cust
 
 This project demonstrates an entire ML workflow, from pre-processing the data, engineering features, to training, evaluating, and comparing models.
 
--
+
 Dataset 
 Dataset used: Telco Customer Churn (XLSX format)
+
 Source: IBM sample dataset
+
 Loaded using: pd.read_excel()
 
 - Total entries: 7,043 customers
