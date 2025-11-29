@@ -9,12 +9,17 @@ This project demonstrates an entire ML workflow, from pre-processing the data, e
 
 -
 Dataset 
-**IBM Telco Customer Churn** dataset from Kaggle.
+Dataset used: Telco Customer Churn (XLSX format)
+Source: IBM sample dataset
+Loaded using: pd.read_excel()
+
 - Total entries: 7,043 customers
 
 - Columns : 33 (demographics, account information, service usage, charges, and churn labels)
 
 Target variable: `Churn Value` (1 = churned, 0 = stayed)
+
+
 
 **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
 ---
